@@ -1,6 +1,6 @@
 {
     "name": "zcoders/zauth",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "autoload": {
         "psr-4": {
