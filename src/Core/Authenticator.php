@@ -63,7 +63,7 @@ final class Authenticator {
             if (!$user) {
                 return Response::json(
                     [
-                        'message'    => "Incorrect userid or password",
+                        'message'    => "Incorrect email or password",
                         'error_code' => "INVALID_CREDENTIALS",
                     ], false, 401
                 );
@@ -105,7 +105,7 @@ final class Authenticator {
                 
                 return Response::json(
                     [
-                        'message'    => "Incorrect userid or password",
+                        'message'    => "Incorrect email or password",
                         'error_code' => "INVALID_CREDENTIALS",
                     ], false, 401
                 );
